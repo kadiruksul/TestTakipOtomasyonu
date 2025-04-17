@@ -1,25 +1,35 @@
-TEST TAKİP OTOMASYONU 
+YÜZDEN IRK TAHMİNİ UYGULAMASI 
 
-Bu Python tabanlı uygulama, kullanıcıların test bilgilerini ve sonuçlarını kolayca takip edebilmesi için geliştirildi. Uygulama, kullanıcı dostu bir konsol arayüzü ile testlerin eklenmesi, güncellenmesi ve silinmesi gibi işlemleri gerçekleştirir. Veriler .txt dosyaları ile saklanmaktadır.
+
+Bu Python tabanlı proje, insan yüzlerinden ırk tahmini yapmayı amaçlamaktadır. Anaconda ortamında geliştirilen bu uygulama, kullanıcıdan alınan 20 yüz görselini analiz ederek her bir yüzün ırkını tahmin eder. Proje, yüz tanıma ve sınıflandırma alanında temel bir örnek sunar.
 
 Özellikler
 
-• Kullanıcı kayıt ve giriş ekranı
-• Test ekleme, silme ve görüntüleme işlemleri
-• Dosya tabanlı veri yönetimi
-• Basit ve anlaşılır Python sınıf yapısı
+• Kullanıcıdan 20 yüz görseli alır
+• Her bir yüzü analiz ederek ırk tahmini yapar
+• Sonuçları kullanıcıya sunar
+• Anaconda ortamında çalıştırılabilir
 
 Kullanılan Teknolojiler
 
 • Python
 • Anaconda
-• Dosya tabanlı sistem (.txt)
+• OpenCV
+• NumPy
+• scikit-learn
 
 Kurulum ve Çalıştırma
 
-Bu projeyi GitHub üzerinden bilgisayarınıza indirin.
+Anaconda'yı bilgisayarınıza kurun.
 
-Anaconda Prompt üzerinden proje klasörüne gidin.
+Proje dosyalarını indirin.
 
-python main.py komutunu çalıştırarak uygulamayı başlatın.
-(Ana dosyanın adı farklıysa onu yazın.)
+Anaconda Prompt'u açarak proje klasörüne gidin.
+
+Gerekli kütüphaneleri yükleyin:
+pip install opencv-python numpy scikit-learn
+
+Uygulamayı başlatın:
+python main.py
+
+Lisans
